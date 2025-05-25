@@ -75,8 +75,6 @@ Live App: https://paroxy050705.github.io/news_portal/
 🙌 Thanks for visiting!
 If you like this project, consider giving it a ⭐ on GitHub!
 
-yaml
-Copy
-Edit
+
 
 
