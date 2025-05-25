@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>News Portal</h1>
+      <div class="controls">
+        <input type="text" id="search-input" placeholder="Search news..." />
+        <select id="category-select">
+          <option value="">All</option>
+          <option value="business">Business</option>
+          <option value="technology">Technology</option>
+          <option value="sports">Sports</option>
+          <option value="health">Health</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="science">Science</option>
+        </select>
+        <button id="theme-toggle">Toggle Theme</button>
+      </div>
+    </header>
+
+    <div id="news-container"></div>
+
+    <div class="pagination">
+      <button id="prev-page">Previous</button>
+      <span id="page-number">1</span>
+      <button id="next-page">Next</button>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
